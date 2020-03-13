@@ -16,6 +16,7 @@
         <module>tutorial-spring-boot-helloworld</module>
         <module>tutorial-spring-boot-config</module>
         <module>tutorial-spring-boot-profile</module>
+        <module>tutorial-spring-boot-log</module>
     </modules>
 
 

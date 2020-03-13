@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- log4j2 自身日志级别 -->
+<Configuration status="WARN">
+
+    <Properties>
+        <!-- 定义日志文件名称 -->
+        <Property name="APP_ID" value="tutorial-spring"/>
+        <!-- 定义日志的根目录 -->
+        <Property name="LOG_PATH" value="/app/log/${APP_ID}"/>
+    </Properties>
+
+    <Appenders>
+        <RollingFile name="RollingFile" fileName="${LOG_PATH}/app.log"
+                     filePattern="${LOG_PATH}/app-%d{yyyyMMdd}-%i.log">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <Policies>
+                <!--以天为单位触发滚动操作，modulate 设置为 true，会以 00:00 作为起始时间，每天 00:00 进行一次滚动-->
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="1GB"/>
+            </Policies>
+            <!--每天最多保存 5G 日志，最多保存 5 天-->
+            <DefaultRolloverStrategy max="5">
+                <Delete basePath="${LOG_PATH}" maxDepth="1">
+                    <IfFileName glob="app-*.log"/>
+                    <IfLastModified age="7d"/>
+                </Delete>
+            </DefaultRolloverStrategy>
+        </RollingFile>
+
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+    </Appenders>
+
+    <Loggers>
+        <logger name="pers.masteryourself.tutorial.spring" level="warn"/>
+
+        <root level="INFO">
+            <AppenderRef ref="RollingFile"/>
+            <AppenderRef ref="Console"/>
+        </root>
+    </Loggers>
+
+</Configuration>
