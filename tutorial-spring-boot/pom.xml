@@ -10,6 +10,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>tutorial-spring-boot</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>tutorial-spring-boot-helloworld</module>
+    </modules>
 
 
 </project>
