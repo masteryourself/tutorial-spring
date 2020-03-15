@@ -11,7 +11,7 @@
 
     <modules>
         <module>tutorial-spring-framework</module>
-        <module>tutorial-spring-boot</module>
+        <module>tutorial-spring-boot-base</module>
         <module>tutorial-spring-data</module>
         <module>tutorial-spring-cloud</module>
     </modules>
