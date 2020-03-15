@@ -18,6 +18,7 @@
         <module>tutorial-spring-boot-profile</module>
         <module>tutorial-spring-boot-log</module>
         <module>tutorial-spring-boot-web</module>
+        <module>tutorial-spring-boot-errorhandler</module>
     </modules>
 
 
