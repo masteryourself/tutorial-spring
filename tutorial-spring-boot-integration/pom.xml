@@ -10,6 +10,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>tutorial-spring-boot-integration</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>tutorial-spring-boot-druid</module>
+    </modules>
 
 
 </project>
