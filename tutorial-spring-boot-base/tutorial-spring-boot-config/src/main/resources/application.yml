@@ -1,9 +1,0 @@
-server:
-  port: 8081
-  servlet:
-    context-path: /demo
-
-test:
-  name1: zhangsan \n lisi
-  name2: "zhangsan \n lisi"
-  name3: 'zhangsan \n lisi'
