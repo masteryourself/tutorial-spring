@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="pers.masteryourself.tutorial.spring.boot.mybatis.mapper.BookMapper">
+
+    <select id="list" resultType="pers.masteryourself.tutorial.spring.boot.mybatis.entity.Book">
+        select * from book
+    </select>
+
+</mapper>
