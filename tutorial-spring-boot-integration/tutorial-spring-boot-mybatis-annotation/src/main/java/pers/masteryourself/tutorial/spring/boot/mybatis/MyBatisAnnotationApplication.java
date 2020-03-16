@@ -13,8 +13,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @version : 1.0.0
  * @date : 2020/3/16 22:41
  */
-@SpringBootApplication
 @MapperScan(value = "pers.masteryourself.tutorial.spring.boot.mybatis.mapper")
+@SpringBootApplication
 public class MyBatisAnnotationApplication {
 
     public static void main(String[] args) {
