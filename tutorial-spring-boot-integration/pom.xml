@@ -16,6 +16,7 @@
         <module>tutorial-spring-boot-druid</module>
         <module>tutorial-spring-boot-mybatis-annotation</module>
         <module>tutorial-spring-boot-mybatis-xml</module>
+        <module>tutorial-spring-boot-jpa</module>
     </modules>
 
 
