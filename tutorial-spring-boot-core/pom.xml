@@ -21,6 +21,7 @@
         <module>tutorial-spring-boot-errorhandler</module>
         <module>tutorial-spring-boot-servlet</module>
         <module>tutorial-spring-boot-war</module>
+        <module>tutorial-spring-boot-listener</module>
     </modules>
 
 

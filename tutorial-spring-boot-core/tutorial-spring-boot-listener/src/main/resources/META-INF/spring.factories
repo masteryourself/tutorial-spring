@@ -1,0 +1,5 @@
+org.springframework.context.ApplicationContextInitializer=\
+pers.masteryourself.tutorial.spring.boot.listener.extend.MyApplicationContextInitializer
+
+org.springframework.boot.SpringApplicationRunListener=\
+pers.masteryourself.tutorial.spring.boot.listener.extend.MySpringApplicationRunListener
