@@ -21,6 +21,7 @@
         <module>tutorial-spring-boot-async</module>
         <module>tutorial-spring-boot-scheduler</module>
         <module>tutorial-spring-boot-mail</module>
+        <module>tutorial-spring-boot-dubbo</module>
     </modules>
 
 
