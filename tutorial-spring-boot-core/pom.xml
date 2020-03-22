@@ -23,6 +23,7 @@
         <module>tutorial-spring-boot-war</module>
         <module>tutorial-spring-boot-listener</module>
         <module>tutorial-spring-boot-starter</module>
+        <module>tutorial-spring-boot-actuator</module>
     </modules>
 
 
