@@ -19,6 +19,7 @@
         <module>tutorial-spring-boot-jpa</module>
         <module>tutorial-spring-boot-cache</module>
         <module>tutorial-spring-boot-async</module>
+        <module>tutorial-spring-boot-scheduler</module>
     </modules>
 
 
