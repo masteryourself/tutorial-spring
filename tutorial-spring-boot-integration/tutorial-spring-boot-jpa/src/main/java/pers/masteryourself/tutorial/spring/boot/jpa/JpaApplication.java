@@ -15,7 +15,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
  * @date : 2020/3/17 20:30
  */
 @SpringBootApplication
-@EntityScan(basePackages = "pers.masteryourself.tutorial.spring.boot.jpa.entity")
+@EntityScan(basePackages = "pers.masteryourself.tutorial.spring.boot.jpa.bean")
 @EnableJpaRepositories(basePackages = "pers.masteryourself.tutorial.spring.boot.jpa.repository")
 public class JpaApplication {
 

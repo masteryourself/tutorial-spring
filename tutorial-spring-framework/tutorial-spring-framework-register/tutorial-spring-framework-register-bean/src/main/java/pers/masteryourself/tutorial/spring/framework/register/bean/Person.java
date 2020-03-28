@@ -1,4 +1,4 @@
-package pers.masteryourself.tutorial.spring.framework.register.entity;
+package pers.masteryourself.tutorial.spring.framework.register.bean;
 
 /**
  * <p>description : Person

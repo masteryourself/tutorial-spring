@@ -1,7 +1,9 @@
 package pers.masteryourself.tutorial.spring.framework.register.config;
 
+import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Scope;
 import pers.masteryourself.tutorial.spring.framework.register.bean.Person;
 
 /**
@@ -11,19 +13,21 @@ import pers.masteryourself.tutorial.spring.framework.register.bean.Person;
  *
  * @author : masteryourself
  * @version : 1.0.0
- * @date : 2020/3/27 23:15
+ * @date : 2020/3/28 20:53
  */
 @Configuration
 public class SpringConfig {
 
-    /**
-     * {@link Bean} 给容器注入一个 bean，类型为返回值的类型，id 默认是方法名作为 id，可以通过 name 修改
-     *
-     * @return
-     */
-    @Bean(name = "personXxx")
+    @Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
+    @Bean(name = "person")
     public Person person() {
-        return new Person();
+        return new Person("张三");
+    }
+
+    @Scope(value = ConfigurableBeanFactory.SCOPE_SINGLETON)
+    @Bean(name = "person2")
+    public Person person2() {
+        return new Person("李四");
     }
 
 }

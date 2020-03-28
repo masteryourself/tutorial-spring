@@ -2,7 +2,7 @@ package pers.masteryourself.tutorial.spring.framework.register;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import pers.masteryourself.tutorial.spring.framework.register.config.SpringConfig;
-import pers.masteryourself.tutorial.spring.framework.register.entity.Person;
+import pers.masteryourself.tutorial.spring.framework.register.bean.Person;
 
 /**
  * <p>description : BeanApplication

@@ -3,19 +3,20 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>tutorial-spring-framework</artifactId>
+        <artifactId>tutorial-spring-framework-register</artifactId>
         <groupId>pers.masteryourself.tutorial.spring</groupId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>tutorial-spring-framework-register</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>tutorial-spring-framework-register-scope</artifactId>
 
-    <modules>
-        <module>tutorial-spring-framework-register-bean</module>
-        <module>tutorial-spring-framework-register-componentscan</module>
-        <module>tutorial-spring-framework-register-scope</module>
-    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>5.2.0.RELEASE</version>
+        </dependency>
+    </dependencies>
 
 </project>
