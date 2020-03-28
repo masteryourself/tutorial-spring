@@ -1,8 +1,8 @@
-package pers.masteryourself.tutorial.spring.framework.register.bean.config;
+package pers.masteryourself.tutorial.spring.framework.register.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import pers.masteryourself.tutorial.spring.framework.register.bean.entity.Person;
+import pers.masteryourself.tutorial.spring.framework.register.entity.Person;
 
 /**
  * <p>description : SpringConfig
@@ -16,6 +16,11 @@ import pers.masteryourself.tutorial.spring.framework.register.bean.entity.Person
 @Configuration
 public class SpringConfig {
 
+    /**
+     * {@link Bean} 给容器注入一个 bean，类型为返回值的类型，id 默认是方法名作为 id，可以通过 name 修改
+     *
+     * @return
+     */
     @Bean(name = "personXxx")
     public Person person() {
         return new Person();
