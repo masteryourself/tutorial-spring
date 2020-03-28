@@ -16,6 +16,7 @@
         <module>tutorial-spring-framework-register-bean</module>
         <module>tutorial-spring-framework-register-componentscan</module>
         <module>tutorial-spring-framework-register-scope</module>
+        <module>tutorial-spring-framework-register-lazy</module>
     </modules>
 
 </project>
