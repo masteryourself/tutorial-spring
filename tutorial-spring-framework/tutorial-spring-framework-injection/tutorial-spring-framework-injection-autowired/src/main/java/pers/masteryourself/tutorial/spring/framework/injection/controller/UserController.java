@@ -2,25 +2,26 @@ package pers.masteryourself.tutorial.spring.framework.injection.controller;
 
 import lombok.ToString;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 import pers.masteryourself.tutorial.spring.framework.injection.service.PersonService;
 
 /**
- * <p>description : PersonController
+ * <p>description : UserController
  *
  * <p>blog : https://Blog.csdn.net/masteryourself
  *
  * @author : masteryourself
  * @version : 1.0.0
- * @date : 2020/3/28 23:40
+ * @date : 2020/3/29 0:03
  */
 @Controller
 @ToString
-public class PersonController {
+public class UserController {
+
+    private PersonService personService;
 
     @Autowired
-    @Qualifier("personService1")
-    private PersonService personService2;
-
+    public void setPersonService(PersonService personService1) {
+        this.personService = personService1;
+    }
 }
