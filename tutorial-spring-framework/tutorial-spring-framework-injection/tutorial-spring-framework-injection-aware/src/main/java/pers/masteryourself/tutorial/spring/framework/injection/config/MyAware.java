@@ -10,6 +10,7 @@ import org.springframework.context.annotation.Import;
 import org.springframework.context.annotation.ImportAware;
 import org.springframework.core.env.Environment;
 import org.springframework.core.type.AnnotationMetadata;
+import org.springframework.stereotype.Component;
 import org.springframework.util.StringValueResolver;
 
 import java.util.Map;
@@ -23,13 +24,14 @@ import java.util.Map;
  * @version : 1.0.0
  * @date : 2020/3/29 2:05
  */
+@Component
 public class MyAware implements ApplicationEventPublisherAware, BeanFactoryAware, EnvironmentAware,
         EmbeddedValueResolverAware, BeanNameAware, ApplicationContextAware, ImportAware {
 
     @Override
     public void setBeanFactory(BeanFactory beanFactory) throws BeansException {
         System.out.println(String.format("{%s} ==========================>>>>>>>>>>>>>>>>>>>>>>>>>>>", "setBeanFactory"));
-        System.out.println(beanFactory.getBean("pers.masteryourself.tutorial.spring.framework.injection.config.MyAware"));
+        System.out.println(beanFactory.getBean("myAware"));
     }
 
     @Override

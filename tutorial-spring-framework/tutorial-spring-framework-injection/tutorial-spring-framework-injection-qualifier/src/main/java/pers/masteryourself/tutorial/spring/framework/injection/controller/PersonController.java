@@ -16,6 +16,7 @@ import pers.masteryourself.tutorial.spring.framework.injection.service.PersonSer
  * @date : 2020/3/28 23:40
  */
 @ToString
+@Controller
 public class PersonController {
 
     @Autowired

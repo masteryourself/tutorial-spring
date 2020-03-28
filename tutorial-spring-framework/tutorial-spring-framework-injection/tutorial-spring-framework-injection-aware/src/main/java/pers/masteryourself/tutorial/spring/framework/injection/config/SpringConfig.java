@@ -1,7 +1,7 @@
 package pers.masteryourself.tutorial.spring.framework.injection.config;
 
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Import;
 
 /**
  * <p>description : SpringConfig
@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Import;
  * @date : 2020/3/29 2:05
  */
 @Configuration
-@Import({MyAware.class})
+@ComponentScan
 public class SpringConfig {
 
 }

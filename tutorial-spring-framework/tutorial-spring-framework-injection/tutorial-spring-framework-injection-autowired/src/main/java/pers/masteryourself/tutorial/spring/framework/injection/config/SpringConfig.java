@@ -16,7 +16,7 @@ import pers.masteryourself.tutorial.spring.framework.injection.service.PersonSer
  * @date : 2020/3/28 23:41
  */
 @Configuration
-@ComponentScan("pers.masteryourself.tutorial.spring.framework.injection.controller")
+@ComponentScan("pers.masteryourself.tutorial.spring.framework.injection")
 public class SpringConfig {
 
     @Bean

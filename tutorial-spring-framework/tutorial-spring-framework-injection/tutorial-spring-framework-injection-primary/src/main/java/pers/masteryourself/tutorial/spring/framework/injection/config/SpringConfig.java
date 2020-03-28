@@ -1,10 +1,9 @@
 package pers.masteryourself.tutorial.spring.framework.injection.config;
 
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Import;
 import org.springframework.context.annotation.Primary;
-import pers.masteryourself.tutorial.spring.framework.injection.controller.PersonController;
 import pers.masteryourself.tutorial.spring.framework.injection.service.PersonService;
 
 /**
@@ -17,7 +16,7 @@ import pers.masteryourself.tutorial.spring.framework.injection.service.PersonSer
  * @date : 2020/3/28 23:54
  */
 @Configuration
-@Import(PersonController.class)
+@ComponentScan("pers.masteryourself.tutorial.spring.framework.injection")
 public class SpringConfig {
 
     @Bean

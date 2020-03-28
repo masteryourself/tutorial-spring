@@ -2,6 +2,7 @@ package pers.masteryourself.tutorial.spring.framework.property.bean;
 
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
 /**
  * <p>description : Person
@@ -13,6 +14,7 @@ import org.springframework.beans.factory.annotation.Value;
  * @date : 2020/3/28 23:16
  */
 @Data
+@Component
 public class Person {
 
     @Value("#{001+001}")

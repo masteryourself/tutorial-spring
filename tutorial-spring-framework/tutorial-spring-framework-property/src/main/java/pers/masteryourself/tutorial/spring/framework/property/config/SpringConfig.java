@@ -1,9 +1,8 @@
 package pers.masteryourself.tutorial.spring.framework.property.config;
 
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Import;
 import org.springframework.context.annotation.PropertySource;
-import pers.masteryourself.tutorial.spring.framework.property.bean.Person;
 
 /**
  * <p>description : SpringConfig
@@ -16,7 +15,7 @@ import pers.masteryourself.tutorial.spring.framework.property.bean.Person;
  */
 @Configuration
 @PropertySource(value = "classpath:person.properties")
-@Import(Person.class)
+@ComponentScan("pers.masteryourself.tutorial.spring.framework.property")
 public class SpringConfig {
 
 }
