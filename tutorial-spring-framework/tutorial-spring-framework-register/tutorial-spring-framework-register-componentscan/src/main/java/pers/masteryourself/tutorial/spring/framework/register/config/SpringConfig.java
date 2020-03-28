@@ -12,6 +12,7 @@ import pers.masteryourself.tutorial.spring.framework.register.service.PersonServ
  * <p>description : SpringConfig
  * 第一个 {@link ComponentScan} 排除了 {@link Repository} 和 {@link Controller} 注解，即只扫描了 {@link PersonService}
  * 第二个 {@link ComponentScan} 扫描了 {@link Controller} 注解类型和 {@link PersonDao} 类型，注意这里要把 useDefaultFilters 属性设置为 false
+ * 第三个 {@link ComponentScan} 根据 {@link CustomTypeFilter} 自定义加载 bean
  *
  * <p>
  * FilterType.ANNOTATION 按照注解匹配
@@ -27,19 +28,19 @@ import pers.masteryourself.tutorial.spring.framework.register.service.PersonServ
  * @date : 2020/3/28 20:20
  */
 @Configuration
-//@ComponentScan(
-//        value = "pers.masteryourself.tutorial.spring.framework.register",
-//        excludeFilters = {@ComponentScan.Filter(type = FilterType.ANNOTATION, value = {Repository.class, Controller.class})}
-//)
-//@ComponentScan(
-//        value = "pers.masteryourself.tutorial.spring.framework.register",
-//        includeFilters = {
-//                @ComponentScan.Filter(type = FilterType.ANNOTATION, value = Controller.class),
-//                @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, value = PersonDao.class)
-//        }, useDefaultFilters = false
-//)
+@ComponentScan(
+        value = "pers.masteryourself.tutorial.spring.framework.register",
+        excludeFilters = {@ComponentScan.Filter(type = FilterType.ANNOTATION, value = {Repository.class, Controller.class})}
+)
+@ComponentScan(
+        value = "pers.masteryourself.tutorial.spring.framework.register",
+        includeFilters = {
+                @ComponentScan.Filter(type = FilterType.ANNOTATION, value = Controller.class),
+                @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, value = PersonDao.class)
+        }, useDefaultFilters = false
+)
 @ComponentScan(value = "pers.masteryourself.tutorial.spring.framework.register", includeFilters = {
         @ComponentScan.Filter(type = FilterType.CUSTOM, classes = CustomTypeFilter.class)
-})
+}, useDefaultFilters = false)
 public class SpringConfig {
 }

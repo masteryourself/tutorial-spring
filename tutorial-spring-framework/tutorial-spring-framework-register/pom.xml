@@ -19,6 +19,7 @@
         <module>tutorial-spring-framework-register-lazy</module>
         <module>tutorial-spring-framework-register-conditional</module>
         <module>tutorial-spring-framework-register-import</module>
+        <module>tutorial-spring-framework-register-factorybean</module>
     </modules>
 
 </project>
