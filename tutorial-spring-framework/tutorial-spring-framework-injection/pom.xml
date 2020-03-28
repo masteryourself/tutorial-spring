@@ -17,6 +17,7 @@
         <module>tutorial-spring-framework-injection-qualifier</module>
         <module>tutorial-spring-framework-injection-primary</module>
         <module>tutorial-spring-framework-injection-aware</module>
+        <module>tutorial-spring-framework-injection-profile</module>
     </modules>
 
 </project>
