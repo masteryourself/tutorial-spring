@@ -15,6 +15,7 @@
     <modules>
         <module>tutorial-spring-framework-register</module>
         <module>tutorial-spring-framework-lifecycle</module>
+        <module>tutorial-spring-framework-property</module>
     </modules>
 
 </project>
