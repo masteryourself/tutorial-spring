@@ -17,6 +17,7 @@
         <module>tutorial-spring-framework-lifecycle</module>
         <module>tutorial-spring-framework-property</module>
         <module>tutorial-spring-framework-injection</module>
+        <module>tutorial-spring-framework-aop</module>
     </modules>
 
 </project>
