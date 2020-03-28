@@ -3,20 +3,19 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>tutorial-spring</artifactId>
+        <artifactId>tutorial-spring-framework</artifactId>
         <groupId>pers.masteryourself.tutorial.spring</groupId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>tutorial-spring-framework</artifactId>
+    <artifactId>tutorial-spring-framework-injection</artifactId>
     <packaging>pom</packaging>
 
     <modules>
-        <module>tutorial-spring-framework-register</module>
-        <module>tutorial-spring-framework-lifecycle</module>
-        <module>tutorial-spring-framework-property</module>
-        <module>tutorial-spring-framework-injection</module>
+        <module>tutorial-spring-framework-injection-autowired</module>
+        <module>tutorial-spring-framework-injection-qualifier</module>
+        <module>tutorial-spring-framework-injection-primary</module>
     </modules>
 
 </project>
