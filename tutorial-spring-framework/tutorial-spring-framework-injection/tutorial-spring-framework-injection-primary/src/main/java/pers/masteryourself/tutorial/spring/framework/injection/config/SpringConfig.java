@@ -3,6 +3,7 @@ package pers.masteryourself.tutorial.spring.framework.injection.config;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
+import org.springframework.context.annotation.Primary;
 import pers.masteryourself.tutorial.spring.framework.injection.controller.PersonController;
 import pers.masteryourself.tutorial.spring.framework.injection.service.PersonService;
 
@@ -20,6 +21,7 @@ import pers.masteryourself.tutorial.spring.framework.injection.service.PersonSer
 public class SpringConfig {
 
     @Bean
+    @Primary
     public PersonService personService1() {
         return new PersonService("1");
     }
