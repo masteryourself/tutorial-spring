@@ -18,6 +18,7 @@
         <module>tutorial-spring-framework-property</module>
         <module>tutorial-spring-framework-injection</module>
         <module>tutorial-spring-framework-aop</module>
+        <module>tutorial-spring-framework-tx</module>
     </modules>
 
 </project>
