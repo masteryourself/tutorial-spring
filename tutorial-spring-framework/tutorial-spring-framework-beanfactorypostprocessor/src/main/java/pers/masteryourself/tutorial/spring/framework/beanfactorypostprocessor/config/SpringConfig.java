@@ -1,4 +1,4 @@
-package pers.masteryourself.tutorial.spring.framework.postprocessor.config;
+package pers.masteryourself.tutorial.spring.framework.beanfactorypostprocessor.config;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -13,6 +13,6 @@ import org.springframework.context.annotation.Configuration;
  * @date : 2020/3/29 22:15
  */
 @Configuration
-@ComponentScan("pers.masteryourself.tutorial.spring.framework.postprocessor")
+@ComponentScan("pers.masteryourself.tutorial.spring.framework.beanfactorypostprocessor")
 public class SpringConfig {
 }

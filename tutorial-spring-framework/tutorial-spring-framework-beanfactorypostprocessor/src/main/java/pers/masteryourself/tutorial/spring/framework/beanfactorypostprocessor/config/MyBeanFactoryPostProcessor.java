@@ -1,4 +1,4 @@
-package pers.masteryourself.tutorial.spring.framework.postprocessor.config;
+package pers.masteryourself.tutorial.spring.framework.beanfactorypostprocessor.config;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanFactoryPostProcessor;

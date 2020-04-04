@@ -1,4 +1,4 @@
-package pers.masteryourself.tutorial.spring.framework.postprocessor.bean;
+package pers.masteryourself.tutorial.spring.framework.beanfactorypostprocessor.bean;
 
 /**
  * <p>description : Cat

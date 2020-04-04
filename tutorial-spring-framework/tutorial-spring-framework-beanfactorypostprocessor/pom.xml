@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>tutorial-spring-framework-postprocessor</artifactId>
+    <artifactId>tutorial-spring-framework-beanfactorypostprocessor</artifactId>
 
     <dependencies>
         <dependency>
