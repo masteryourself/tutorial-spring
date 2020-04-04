@@ -22,6 +22,7 @@
         <module>tutorial-spring-framework-beanfactorypostprocessor</module>
         <module>tutorial-spring-framework-listener</module>
         <module>tutorial-spring-framework-servlet3.0</module>
+        <module>tutorial-spring-framework-web</module>
     </modules>
 
 </project>
