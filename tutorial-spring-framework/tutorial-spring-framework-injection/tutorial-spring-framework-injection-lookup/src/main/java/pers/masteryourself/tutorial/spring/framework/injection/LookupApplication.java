@@ -22,7 +22,7 @@ public class LookupApplication {
         Person person1 = applicationContext.getBean(Person.class);
         person1.doSomething();
         Person person2 = applicationContext.getBean(Person.class);
-        person1.doSomething();
+        person2.doSomething();
     }
 
 }
