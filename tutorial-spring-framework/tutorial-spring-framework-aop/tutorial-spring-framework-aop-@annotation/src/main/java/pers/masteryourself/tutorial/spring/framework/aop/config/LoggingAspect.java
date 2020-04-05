@@ -21,8 +21,7 @@ import org.springframework.stereotype.Component;
 public class LoggingAspect {
 
     /**
-     * args 表达式的作用是匹配指定参数类型和指定参数数量的方法，与包名和类名无关
-     * 第一个入参类型必须是 {@link pers.masteryourself.tutorial.spring.framework.aop.bean.User}，之后的入参类型无规定
+     * 作用于标注了 {@link MasterYourself} 注解的方法
      */
     @Pointcut("@annotation(pers.masteryourself.tutorial.spring.framework.aop.config.MasterYourself)")
     public void declareJointPointExpression() {

@@ -17,6 +17,7 @@
         <module>tutorial-spring-framework-aop-within</module>
         <module>tutorial-spring-framework-aop-args</module>
         <module>tutorial-spring-framework-aop-@annotation</module>
+        <module>tutorial-spring-framework-aop-this</module>
     </modules>
 
 </project>
