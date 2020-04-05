@@ -11,7 +11,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
  *
  * @author : masteryourself
  * @version : 1.0.0
- * @date : 2020/3/29 2:53
+ * @date : 2020/4/6 0:30
  */
 @Configuration
 @ComponentScan(value = "pers.masteryourself.tutorial.spring.framework.aop")
