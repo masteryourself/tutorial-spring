@@ -19,7 +19,7 @@ public class PersonService {
         System.out.println("执行 query()");
     }
 
-    public void save(User user) {
+    public void save(User user,String name) {
         System.out.println("执行 save()");
     }
 

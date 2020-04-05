@@ -21,7 +21,7 @@ public class AopArgsApplication {
         PersonService personService = context.getBean(PersonService.class);
         personService.query("张三");
         System.out.println("*****************************分割线*****************************");
-        personService.save(new User());
+        personService.save(new User(),"");
     }
 
 }

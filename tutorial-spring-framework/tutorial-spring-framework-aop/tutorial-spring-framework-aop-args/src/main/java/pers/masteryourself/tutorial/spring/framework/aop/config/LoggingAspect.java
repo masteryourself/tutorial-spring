@@ -22,9 +22,9 @@ public class LoggingAspect {
 
     /**
      * args 表达式的作用是匹配指定参数类型和指定参数数量的方法，与包名和类名无关
-     * 入参类型必须是 {@link pers.masteryourself.tutorial.spring.framework.aop.bean.User}
+     * 第一个入参类型必须是 {@link pers.masteryourself.tutorial.spring.framework.aop.bean.User}，之后的入参类型无规定
      */
-    @Pointcut("args(pers.masteryourself.tutorial.spring.framework.aop.bean.User)")
+    @Pointcut("args(pers.masteryourself.tutorial.spring.framework.aop.bean.User,..)")
     public void declareJointPointExpression() {
     }
 
