@@ -18,6 +18,7 @@
         <module>tutorial-spring-framework-injection-primary</module>
         <module>tutorial-spring-framework-injection-aware</module>
         <module>tutorial-spring-framework-injection-profile</module>
+        <module>tutorial-spring-framework-injection-lookup</module>
     </modules>
 
 </project>
