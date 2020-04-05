@@ -24,6 +24,7 @@
         <module>tutorial-spring-framework-servlet3.0</module>
         <module>tutorial-spring-framework-web</module>
         <module>tutorial-spring-framework-async</module>
+        <module>tutorial-spring-framework-autowiring</module>
     </modules>
 
 </project>
