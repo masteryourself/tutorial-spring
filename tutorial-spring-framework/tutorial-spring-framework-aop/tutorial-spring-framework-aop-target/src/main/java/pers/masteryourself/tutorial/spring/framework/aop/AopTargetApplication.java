@@ -3,9 +3,6 @@ package pers.masteryourself.tutorial.spring.framework.aop;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import pers.masteryourself.tutorial.spring.framework.aop.config.SpringConfig;
 import pers.masteryourself.tutorial.spring.framework.aop.service.PersonService;
-import pers.masteryourself.tutorial.spring.framework.aop.service.impl.PersonServiceImpl;
-
-import java.lang.reflect.Proxy;
 
 /**
  * <p>description : AopTargetApplication
@@ -24,9 +21,6 @@ public class AopTargetApplication {
         personService.query("张三");
         System.out.println("*****************************分割线*****************************");
         personService.save("张三");
-        // 使用 jdk 动态代理：true, false
-        System.out.println(personService instanceof Proxy);
-        System.out.println(personService instanceof PersonServiceImpl);
     }
 
 }
