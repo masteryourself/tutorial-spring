@@ -1,7 +1,9 @@
 package pers.masteryourself.tutorial.spring.framework.aop.service;
 
+import org.springframework.stereotype.Service;
+
 /**
- * <p>description : PersonService
+ * <p>description : PersonServiceImpl
  *
  * <p>blog : https://Blog.csdn.net/masteryourself
  *
@@ -9,8 +11,15 @@ package pers.masteryourself.tutorial.spring.framework.aop.service;
  * @version : 1.0.0
  * @date : 2020/4/6 0:30
  */
-public interface PersonService {
+@Service
+public class PersonService {
 
-    void query(String name);
+    public void query(String name) {
+        System.out.println("执行 query()");
+    }
+
+    public void save(String name) {
+        System.out.println("执行 save()");
+    }
 
 }

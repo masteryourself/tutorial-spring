@@ -1,8 +1,7 @@
 package pers.masteryourself.tutorial.spring.framework.aop.config;
 
-import org.aspectj.lang.ProceedingJoinPoint;
-import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
@@ -21,28 +20,25 @@ import org.springframework.stereotype.Component;
 @Order(1)
 public class LoggingAspect {
 
-    @Pointcut("execution(* pers.masteryourself.tutorial.spring.framework.aop.service.impl.PersonServiceImpl.*(..))")
+    /**
+     * 匹配 pers.masteryourself.tutorial.spring.framework.aop.service 包及其子包中的任意以 save 开头的方法
+     * execution(* pers.masteryourself.dao.*.*(..)) 表示匹配 pers.masteryourself.dao 包下的任意接口和类的任意方法
+     * execution(public * pers.masteryourself.dao.*.*(..)) 表示匹配 pers.masteryourself.dao 包下的任意接口和类的 public 方法
+     * execution(public * pers.masteryourself.dao.*.*()) 表示匹配 pers.masteryourself.dao 包下的任意接口和类的 public 无方法参数的方法
+     * execution(* pers.masteryourself.dao.*.*(java.lang.String, ..)) 表示匹配 pers.masteryourself.dao 包下的任意接口和类的第一个参数为 String 类型的方法
+     * execution(* pers.masteryourself.dao.*.*(java.lang.String)) 表示匹配 pers.masteryourself.dao 包下的任意接口和类的只有一个参数，且参数为 String 类型的方法
+     * execution(public * *(..)) 表示匹配任意的 public 方法
+     * execution(* save*(..)) 表示匹配任意的以 save 开头的方法
+     * execution(* pers.masteryourself.dao.IndexDao.*(..)) 表示匹配 pers.masteryourself.dao.IndexDao 接口中任意的方法
+     * execution(* pers.masteryourself.dao..*.*(..)) 表示匹配 pers.masteryourself.dao 包及其子包中任意的方法
+     */
+    @Pointcut("execution(* pers.masteryourself.tutorial.spring.framework.aop.service..*.save*(..))")
     public void declareJointPointExpression() {
     }
 
-    @Around("declareJointPointExpression()")
-    public Object aroundMethod(ProceedingJoinPoint pjd) {
-        Object result = null;
-        try {
-            //前置通知
-            System.out.println("前置通知");
-            //执行目标方法
-            result = pjd.proceed();
-            //返回通知
-            System.out.println("返回通知");
-        } catch (Throwable e) {
-            //异常通知
-            System.out.println("异常通知" + e);
-            throw new RuntimeException(e);
-        }
-        //后置通知
-        System.out.println("后置通知");
-        return result;
+    @Before("declareJointPointExpression()")
+    public void before() {
+        System.out.println("aop 生效");
     }
 
 }

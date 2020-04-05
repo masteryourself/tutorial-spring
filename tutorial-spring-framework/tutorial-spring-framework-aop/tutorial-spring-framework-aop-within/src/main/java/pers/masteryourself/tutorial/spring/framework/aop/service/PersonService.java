@@ -1,7 +1,6 @@
-package pers.masteryourself.tutorial.spring.framework.aop.service.impl;
+package pers.masteryourself.tutorial.spring.framework.aop.service;
 
 import org.springframework.stereotype.Service;
-import pers.masteryourself.tutorial.spring.framework.aop.service.PersonService;
 
 /**
  * <p>description : PersonServiceImpl
@@ -13,11 +12,14 @@ import pers.masteryourself.tutorial.spring.framework.aop.service.PersonService;
  * @date : 2020/4/6 0:30
  */
 @Service
-public class PersonServiceImpl implements PersonService {
+public class PersonService {
 
-    @Override
     public void query(String name) {
-        System.out.println("业务方法执行");
+        System.out.println("执行 query()");
+    }
+
+    public void save(String name) {
+        System.out.println("执行 save()");
     }
 
 }
