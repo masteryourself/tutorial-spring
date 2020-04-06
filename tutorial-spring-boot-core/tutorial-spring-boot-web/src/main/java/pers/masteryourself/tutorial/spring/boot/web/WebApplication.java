@@ -8,7 +8,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
  * <p>description : WebApplication
  * <p> {@link EnableWebMvc} 会导致 Spring Boot 对 Spring Mvc 的自动装配全部失效
  *
- * <p>blog : https://Blog.csdn.net/masteryourself
+ * <p>blog : https://blog.csdn.net/masteryourself
  *
  * @author : masteryourself
  * @version : 1.0.0

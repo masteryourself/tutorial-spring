@@ -8,7 +8,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 /**
  * <p>description : WebMvcConfigurerAdapter, 使用 {@link WebMvcConfigurerAdapter} 可以来扩展 SpringMVC 的功能
  *
- * <p>blog : https://Blog.csdn.net/masteryourself
+ * <p>blog : https://blog.csdn.net/masteryourself
  *
  * @author : masteryourself
  * @version : 1.0.0

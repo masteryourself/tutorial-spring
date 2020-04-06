@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
  * beanFactory 的后置处理器，在 BeanFactory 标准初始化之后调用，来定制和修改 BeanFactory 的内容
  * 所有的 bean 定义已经保存加载到 beanFactory，但是 bean 的实例还未创建
  *
- * <p>blog : https://Blog.csdn.net/masteryourself
+ * <p>blog : https://blog.csdn.net/masteryourself
  *
  * @author : masteryourself
  * @version : 1.0.0

@@ -8,7 +8,7 @@ import pers.masteryourself.tutorial.spring.framework.aop.service.PersonService;
 /**
  * <p>description : AopArgsApplication
  *
- * <p>blog : https://Blog.csdn.net/masteryourself
+ * <p>blog : https://blog.csdn.net/masteryourself
  *
  * @author : masteryourself
  * @version : 1.0.0

@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 /**
  * <p>description : MasterYourself，注解标记，无实际作用
  *
- * <p>blog : https://Blog.csdn.net/masteryourself
+ * <p>blog : https://blog.csdn.net/masteryourself
  *
  * @author : masteryourself
  * @version : 1.0.0

@@ -7,7 +7,7 @@ import org.springframework.stereotype.Controller;
 /**
  * <p>description : SpringConfig，不扫描 {@link Controller} 标注的类
  *
- * <p>blog : https://Blog.csdn.net/masteryourself
+ * <p>blog : https://blog.csdn.net/masteryourself
  *
  * @author : masteryourself
  * @version : 1.0.0

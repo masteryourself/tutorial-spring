@@ -10,7 +10,7 @@ import pers.masteryourself.tutorial.spring.framework.aop.service.BaseServiceImpl
 /**
  * <p>description : LoggingAspect
  *
- * <p>blog : https://Blog.csdn.net/masteryourself
+ * <p>blog : https://blog.csdn.net/masteryourself
  *
  * @author : masteryourself
  * @version : 1.0.0

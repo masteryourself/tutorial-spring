@@ -8,7 +8,7 @@ import pers.masteryourself.tutorial.spring.boot.servlet.listener.MyListener;
 /**
  * <p>description : ListenerConfig
  *
- * <p>blog : https://Blog.csdn.net/masteryourself
+ * <p>blog : https://blog.csdn.net/masteryourself
  *
  * @author : masteryourself
  * @version : 1.0.0

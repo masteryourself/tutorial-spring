@@ -9,7 +9,7 @@ import pers.masteryourself.tutorial.spring.boot.async.service.AsyncService;
 /**
  * <p>description : AsyncController
  *
- * <p>blog : https://Blog.csdn.net/masteryourself
+ * <p>blog : https://blog.csdn.net/masteryourself
  *
  * @author : masteryourself
  * @version : 1.0.0

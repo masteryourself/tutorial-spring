@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Bean;
 /**
  * <p>description : MyBatisConfig, 对 mybatis 做定制化处理
  *
- * <p>blog : https://Blog.csdn.net/masteryourself
+ * <p>blog : https://blog.csdn.net/masteryourself
  *
  * @author : masteryourself
  * @version : 1.0.0

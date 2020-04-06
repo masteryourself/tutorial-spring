@@ -12,7 +12,7 @@ import pers.masteryourself.tutorial.spring.boot.cache.repository.UserRepository;
 /**
  * <p>description : UserService
  *
- * <p>blog : https://Blog.csdn.net/masteryourself
+ * <p>blog : https://blog.csdn.net/masteryourself
  *
  * @author : masteryourself
  * @version : 1.0.0

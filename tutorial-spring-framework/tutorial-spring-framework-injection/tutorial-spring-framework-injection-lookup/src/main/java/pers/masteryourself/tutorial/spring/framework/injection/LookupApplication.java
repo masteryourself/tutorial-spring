@@ -9,7 +9,7 @@ import pers.masteryourself.tutorial.spring.framework.injection.config.SpringConf
  * <p>description : LookupApplication
  * <p>{@link Person} 的 scope 是 singleton 的，{@link Dog} 的 scope 是 prototype 的，在 {@link Person} 中使用 {@link Dog} 就会出现因为作用域范围带来的问题
  *
- * <p>blog : https://Blog.csdn.net/masteryourself
+ * <p>blog : https://blog.csdn.net/masteryourself
  *
  * @author : masteryourself
  * @version : 1.0.0

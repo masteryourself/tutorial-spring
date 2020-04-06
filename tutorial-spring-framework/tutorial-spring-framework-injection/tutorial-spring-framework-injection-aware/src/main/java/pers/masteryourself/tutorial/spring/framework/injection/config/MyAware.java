@@ -18,7 +18,7 @@ import java.util.Map;
 /**
  * <p>description : MyAware
  *
- * <p>blog : https://Blog.csdn.net/masteryourself
+ * <p>blog : https://blog.csdn.net/masteryourself
  *
  * @author : masteryourself
  * @version : 1.0.0

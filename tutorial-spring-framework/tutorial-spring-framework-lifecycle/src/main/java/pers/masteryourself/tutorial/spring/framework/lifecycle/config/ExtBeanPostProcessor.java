@@ -9,7 +9,7 @@ import pers.masteryourself.tutorial.spring.framework.lifecycle.bean.Teacher;
 /**
  * <p>description : ExtBeanPostProcessor
  *
- * <p>blog : https://Blog.csdn.net/masteryourself
+ * <p>blog : https://blog.csdn.net/masteryourself
  *
  * @author : masteryourself
  * @version : 1.0.0

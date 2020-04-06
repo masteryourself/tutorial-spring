@@ -17,7 +17,7 @@ import java.util.Set;
  * <p>description : MyServletContainerInitializer
  * <p>{@link HandlesTypes} 会在容器启动时，将 {@link ServletInitializer} 类型的类传入到 set 集合中
  *
- * <p>blog : https://Blog.csdn.net/masteryourself
+ * <p>blog : https://blog.csdn.net/masteryourself
  *
  * @author : masteryourself
  * @version : 1.0.0

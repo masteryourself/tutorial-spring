@@ -21,7 +21,7 @@ import pers.masteryourself.tutorial.spring.framework.register.service.PersonServ
  * FilterType.REGEX 使用正则表达式
  * FilterType.CUSTOM 使用自定义方式
  *
- * <p>blog : https://Blog.csdn.net/masteryourself
+ * <p>blog : https://blog.csdn.net/masteryourself
  *
  * @author : masteryourself
  * @version : 1.0.0

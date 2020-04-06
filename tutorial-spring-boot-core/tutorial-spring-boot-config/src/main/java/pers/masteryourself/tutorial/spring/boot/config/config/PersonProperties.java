@@ -13,7 +13,7 @@ import java.util.Map;
  * <P>只有这个组件是容器中的组件，才能容器提供的 @ConfigurationProperties 功能, 所以这里要么使用 @Component,
  * 要么使用 @EnableConfigurationProperties(PersonProperties.class) 开启
  *
- * <p>blog : https://Blog.csdn.net/masteryourself
+ * <p>blog : https://blog.csdn.net/masteryourself
  *
  * @author : masteryourself
  * @version : 1.0.0

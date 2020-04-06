@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
  * <p>description : SpringMvcConfig，只扫描 {@link Controller} 标注的类
  * <p>{@link EnableWebMvc}开启 SpringMVC 定制配置功能
  *
- * <p>blog : https://Blog.csdn.net/masteryourself
+ * <p>blog : https://blog.csdn.net/masteryourself
  *
  * @author : masteryourself
  * @version : 1.0.0
