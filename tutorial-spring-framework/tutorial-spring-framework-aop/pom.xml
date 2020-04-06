@@ -19,6 +19,7 @@
         <module>tutorial-spring-framework-aop-@annotation</module>
         <module>tutorial-spring-framework-aop-this</module>
         <module>tutorial-spring-framework-aop-target</module>
+        <module>tutorial-spring-framework-aop-introductions</module>
     </modules>
 
 </project>
