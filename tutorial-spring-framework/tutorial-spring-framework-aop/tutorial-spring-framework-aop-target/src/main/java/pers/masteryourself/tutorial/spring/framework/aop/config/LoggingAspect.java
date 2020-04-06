@@ -22,7 +22,7 @@ import pers.masteryourself.tutorial.spring.framework.aop.service.impl.PersonServ
 public class LoggingAspect {
 
     /**
-     * this 表示目标对象的匹配类型是否是 {@link PersonServiceImpl}，目标对象类型永远不会发生变化
+     * target 表示目标对象的匹配类型是否是 {@link PersonServiceImpl}，目标对象类型永远不会发生变化
      * 因为要代理的对象就是 {@link PersonServiceImpl}，所以肯定是
      */
     @Pointcut("target(pers.masteryourself.tutorial.spring.framework.aop.service.PersonService)")
