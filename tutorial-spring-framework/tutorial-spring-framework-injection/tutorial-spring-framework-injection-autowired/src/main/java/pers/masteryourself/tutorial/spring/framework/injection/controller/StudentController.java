@@ -7,7 +7,7 @@ import pers.masteryourself.tutorial.spring.framework.injection.service.PersonSer
 /**
  * <p>description : StudentController
  *
- * <p>blog : https://Blog.csdn.net/masteryourself
+ * <p>blog : https://blog.csdn.net/masteryourself
  *
  * @author : masteryourself
  * @version : 1.0.0
