@@ -25,6 +25,7 @@
         <module>tutorial-spring-framework-web</module>
         <module>tutorial-spring-framework-async</module>
         <module>tutorial-spring-framework-autowiring</module>
+        <module>tutorial-spring-framework-log</module>
     </modules>
 
 </project>
