@@ -9,6 +9,10 @@
     <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
 
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
     <modules>
         <module>tutorial-spring-framework</module>
         <module>tutorial-spring-boot-core</module>
@@ -16,6 +20,5 @@
         <module>tutorial-spring-data</module>
         <module>tutorial-spring-cloud</module>
     </modules>
-
 
 </project>
