@@ -1,6 +1,5 @@
 package pers.masteryourself.tutorial.spring.framework.injection.controller;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import pers.masteryourself.tutorial.spring.framework.injection.service.PersonService;
 
@@ -14,9 +13,16 @@ import pers.masteryourself.tutorial.spring.framework.injection.service.PersonSer
  * @date : 2020/3/29 0:14
  */
 @Data
-@AllArgsConstructor
 public class StudentController {
 
     private PersonService personService;
 
+    /**
+     * 要一个有参的构造参数
+     *
+     * @param personService
+     */
+    public StudentController(PersonService personService) {
+        this.personService = personService;
+    }
 }
