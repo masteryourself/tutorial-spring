@@ -3,10 +3,9 @@ package pers.masteryourself.tutorial.spring.boot.web.config;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 /**
- * <p>description : WebMvcConfigurerAdapter, 使用 {@link WebMvcConfigurerAdapter} 可以来扩展 SpringMVC 的功能
+ * <p>description : CustomSpringMvcConfig, 使用 {@link WebMvcConfigurer} 可以来扩展 SpringMVC 的功能
  *
  * <p>blog : https://blog.csdn.net/masteryourself
  *
