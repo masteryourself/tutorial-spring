@@ -18,7 +18,7 @@ public class StudentController {
     private PersonService personService;
 
     /**
-     * 要一个有参的构造参数
+     * 有且只能有一个有参的构造参数
      *
      * @param personService
      */
