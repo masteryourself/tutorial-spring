@@ -17,7 +17,7 @@ import org.springframework.core.env.ConfigurableEnvironment;
 public class MySpringApplicationRunListener implements SpringApplicationRunListener {
 
     /**
-     * 必须要有
+     * 必须要有这个构造函数
      *
      * @param application
      * @param args
