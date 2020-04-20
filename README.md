@@ -10,7 +10,7 @@ Spring Framework 学习系列的案例，基于 Spring v5.1.6.RELEASE 版本，�
 
 ## [tutorial-spring-boot-core](https://github.com/masteryourself-tutorial/tutorial-spring/tree/master/tutorial-spring-boot-core)
 
-Spring Boot 学习系列的案例，基于 Spring Boot v2.1.4.RELEASE 版本，包含配置文件注入、配置加载顺序、日志体系、Web 扩展原理、错误请求处理机制、Web 容器原理、Spring Boot 启动原理、自定义 starter、Actuator 监控
+Spring Boot 学习系列的案例，基于 Spring Boot v2.1.4.RELEASE 版本，包含配置文件、日志体系、MVC 装配原理与扩展、错误请求处理机制、web 容器原理、Spring Boot 启动原理、自定义 starter、Actuator 监控等
 
 对应博客地址是 [Spring Boot 核心功能](https://blog.csdn.net/masteryourself/category_9827533.html)
 
