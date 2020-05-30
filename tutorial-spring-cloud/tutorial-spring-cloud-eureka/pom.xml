@@ -9,12 +9,11 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>tutorial-spring-cloud-provider</artifactId>
+    <artifactId>tutorial-spring-cloud-eureka</artifactId>
     <packaging>pom</packaging>
-
     <modules>
-        <module>tutorial-spring-cloud-provider-simple-5001</module>
-        <module>tutorial-spring-cloud-provider-eureka-5002</module>
+        <module>tutorial-spring-cloud-eureka-single-7001</module>
     </modules>
+
 
 </project>

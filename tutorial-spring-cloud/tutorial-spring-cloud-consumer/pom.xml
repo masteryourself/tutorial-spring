@@ -13,7 +13,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>tutorial-spring-cloud-consumer-resttemplate</module>
+        <module>tutorial-spring-cloud-consumer-resttemplate-6001</module>
     </modules>
-    
+
 </project>

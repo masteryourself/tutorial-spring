@@ -3,13 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>tutorial-spring-cloud-provider</artifactId>
+        <artifactId>tutorial-spring-cloud-consumer</artifactId>
         <groupId>pers.masteryourself.tutorial.spring</groupId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>tutorial-spring-cloud-provider-5002</artifactId>
+    <artifactId>tutorial-spring-cloud-consumer-resttemplate-6001</artifactId>
 
     <dependencies>
         <dependency>

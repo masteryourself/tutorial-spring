@@ -15,6 +15,7 @@
     <modules>
         <module>tutorial-spring-cloud-provider</module>
         <module>tutorial-spring-cloud-consumer</module>
+        <module>tutorial-spring-cloud-eureka</module>
     </modules>
 
 </project>
