@@ -28,7 +28,7 @@ public class ProviderController {
     public Map<String, String> info() {
         try {
             // 模拟超时
-            TimeUnit.SECONDS.sleep(6);
+            TimeUnit.SECONDS.sleep(2);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
