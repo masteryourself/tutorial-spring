@@ -9,7 +9,6 @@ import java.util.Map;
 
 /**
  * <p>description : ProviderFeignFallback
- * <p>注意该类上要添加 @RequestMapping 注解
  *
  * <p>blog : https://blog.csdn.net/masteryourself
  *

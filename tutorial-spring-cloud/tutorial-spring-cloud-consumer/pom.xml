@@ -20,6 +20,7 @@
         <module>tutorial-spring-cloud-consumer-fallbackmethod-6005</module>
         <module>tutorial-spring-cloud-consumer-feign-fallback-6006</module>
         <module>tutorial-spring-cloud-consumer-feign-fallbackfactory-6007</module>
+        <module>tutorial-spring-cloud-consumer-feign-hystrix-dashboard-6008</module>
     </modules>
 
 </project>
