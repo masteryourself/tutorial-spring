@@ -1,9 +1,9 @@
-package pers.masteryourself.tutorial.spring.cloud.consumer.feign.controller;
+package pers.masteryourself.tutorial.spring.cloud.consumer.feign.loadbalance.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import pers.masteryourself.tutorial.spring.cloud.consumer.feign.feign.ProviderFeign;
+import pers.masteryourself.tutorial.spring.cloud.consumer.feign.loadbalance.feign.ProviderFeign;
 
 import java.util.Map;
 

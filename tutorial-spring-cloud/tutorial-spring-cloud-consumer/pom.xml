@@ -17,6 +17,9 @@
         <module>tutorial-spring-cloud-consumer-eureka-6002</module>
         <module>tutorial-spring-cloud-consumer-feign-6003</module>
         <module>tutorial-spring-cloud-consumer-feign-loadbalance-6004</module>
+        <module>tutorial-spring-cloud-consumer-fallbackmethod-6005</module>
+        <module>tutorial-spring-cloud-consumer-feign-fallback-6006</module>
+        <module>tutorial-spring-cloud-consumer-feign-fallbackfactory-6007</module>
     </modules>
 
 </project>

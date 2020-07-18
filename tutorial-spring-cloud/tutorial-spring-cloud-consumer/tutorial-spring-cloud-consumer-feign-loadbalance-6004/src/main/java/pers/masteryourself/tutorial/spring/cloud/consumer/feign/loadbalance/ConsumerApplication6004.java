@@ -1,4 +1,4 @@
-package pers.masteryourself.tutorial.spring.cloud.consumer.feign;
+package pers.masteryourself.tutorial.spring.cloud.consumer.feign.loadbalance;
 
 import com.netflix.loadbalancer.IRule;
 import org.springframework.boot.SpringApplication;
