@@ -16,7 +16,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
  * @date : 2020/3/21 22:29
  */
 @SpringBootApplication
-@EntityScan(basePackages = "pers.masteryourself.tutorial.spring.boot.cache.bean")
+@EntityScan(basePackages = "pers.masteryourself.tutorial.spring.boot.cache.entity")
 @EnableJpaRepositories(basePackages = "pers.masteryourself.tutorial.spring.boot.cache.repository")
 @EnableCaching
 public class CacheApplication {
