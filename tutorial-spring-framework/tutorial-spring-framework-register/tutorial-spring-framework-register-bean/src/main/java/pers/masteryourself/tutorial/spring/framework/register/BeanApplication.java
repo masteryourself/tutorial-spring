@@ -24,6 +24,7 @@ public class BeanApplication {
             // beanName is：personXxx
             System.out.println("beanName is：" + name);
         }
+        context.close();
     }
 
 }

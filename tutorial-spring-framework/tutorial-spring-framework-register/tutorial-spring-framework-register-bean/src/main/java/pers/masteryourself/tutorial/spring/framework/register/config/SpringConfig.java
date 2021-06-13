@@ -21,7 +21,7 @@ public class SpringConfig {
      *
      * @return
      */
-    @Bean(name = "personXxx")
+    @Bean(name = "personXxx", initMethod = "init", destroyMethod = "destroy")
     public Person person() {
         return new Person();
     }
