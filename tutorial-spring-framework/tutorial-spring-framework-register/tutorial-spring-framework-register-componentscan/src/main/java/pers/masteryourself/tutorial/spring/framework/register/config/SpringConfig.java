@@ -39,8 +39,10 @@ import pers.masteryourself.tutorial.spring.framework.register.service.PersonServ
                 @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, value = PersonDao.class)
         }, useDefaultFilters = false
 )
-@ComponentScan(value = "pers.masteryourself.tutorial.spring.framework.register", includeFilters = {
-        @ComponentScan.Filter(type = FilterType.CUSTOM, classes = CustomTypeFilter.class)
-}, useDefaultFilters = false)
+@ComponentScan(value = "pers.masteryourself.tutorial.spring.framework.register",
+        includeFilters = {
+                @ComponentScan.Filter(type = FilterType.CUSTOM, classes = CustomTypeFilter.class)
+        }, useDefaultFilters = false
+)
 public class SpringConfig {
 }
