@@ -19,21 +19,11 @@ public class FactoryBeanApplication {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(SpringConfig.class);
         // 调用了 PersonFactoryBean.getObject() 方法
-        Person person1 = context.getBean("person", Person.class);
+        Person person = context.getBean("person", Person.class);
         // 加上 & 表示获取 FactoryBean 对应的 bean
         PersonFactoryBean personFactoryBean = context.getBean("&person", PersonFactoryBean.class);
+        System.out.println(person);
         System.out.println(personFactoryBean);
-        Person person2 = context.getBean("person", Person.class);
-        // true
-        System.out.println(person1 == person2);
-        // class pers.masteryourself.tutorial.spring.framework.register.bean.Person
-        System.out.println(person1.getClass());
-        PersonFactoryBean personFactoryBean1 = context.getBean(PersonFactoryBean.class);
-        PersonFactoryBean personFactoryBean2 = context.getBean("&person", PersonFactoryBean.class);
-        // true
-        System.out.println(personFactoryBean1 == personFactoryBean2);
-        // class pers.masteryourself.tutorial.spring.framework.register.config.PersonFactoryBean
-        System.out.println(personFactoryBean1.getClass());
     }
 
 }
