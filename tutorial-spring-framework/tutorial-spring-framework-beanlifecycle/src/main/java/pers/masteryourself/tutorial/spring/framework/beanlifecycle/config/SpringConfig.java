@@ -4,9 +4,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 import pers.masteryourself.tutorial.spring.framework.beanlifecycle.bean.Monitor;
-import pers.masteryourself.tutorial.spring.framework.beanlifecycle.bean.Principal;
-import pers.masteryourself.tutorial.spring.framework.beanlifecycle.bean.Student;
-import pers.masteryourself.tutorial.spring.framework.beanlifecycle.bean.Teacher;
 
 /**
  * <p>description : SpringConfig
@@ -21,7 +18,7 @@ import pers.masteryourself.tutorial.spring.framework.beanlifecycle.bean.Teacher;
 @Import(ExtBeanPostProcessor.class)
 public class SpringConfig {
 
-    @Bean(initMethod = "initMethod", destroyMethod = "destroyMethod")
+    /*@Bean(initMethod = "initMethod", destroyMethod = "destroyMethod")
     public Student student() {
         return new Student();
     }
@@ -34,9 +31,10 @@ public class SpringConfig {
     @Bean
     public Principal principal() {
         return new Principal();
-    }
+    }*/
 
     @Bean(initMethod = "initMethod", destroyMethod = "destroyMethod")
+    //@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
     public Monitor monitor() {
         return new Monitor();
     }
