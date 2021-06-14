@@ -18,21 +18,15 @@ public class BeanLifecycleApplication {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(SpringConfig.class);
         // 关闭容器，调用此方法才会销毁对象
         context.close();
-        // principal constructor
-        // principal =================>>>>>>>>>>>>> postProcessBeforeInitialization
-        // principal postConstruct
-        // principal =================>>>>>>>>>>>>> postProcessAfterInitialization
-        // teacher constructor
-        // teacher =================>>>>>>>>>>>>> postProcessBeforeInitialization
-        // teacher afterPropertiesSet
-        // teacher =================>>>>>>>>>>>>> postProcessAfterInitialization
-        // student constructor
-        // student =================>>>>>>>>>>>>> postProcessBeforeInitialization
-        // student initMethod
-        // student =================>>>>>>>>>>>>> postProcessAfterInitialization
-        // student destroyMethod
-        // teacher destroy
-        // principal preDestroy
+        //  monitor constructor
+        //  monitor =================>>>>>>>>>>>>> postProcessBeforeInitialization
+        //  monitor postConstruct
+        //  monitor afterPropertiesSet
+        //  monitor initMethod
+        //  monitor =================>>>>>>>>>>>>> postProcessAfterInitialization
+        //  monitor preDestroy
+        //  monitor destroy
+        //  monitor destroyMethod
     }
 
 }

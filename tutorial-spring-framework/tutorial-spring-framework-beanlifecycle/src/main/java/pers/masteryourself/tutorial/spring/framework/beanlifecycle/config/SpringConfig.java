@@ -41,5 +41,4 @@ public class SpringConfig {
         return new Monitor();
     }
 
-
 }
