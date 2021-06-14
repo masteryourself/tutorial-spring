@@ -1,10 +1,12 @@
 package pers.masteryourself.tutorial.spring.framework.beanlifecycle.config;
 
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
+import pers.masteryourself.tutorial.spring.framework.beanlifecycle.bean.Monitor;
+import pers.masteryourself.tutorial.spring.framework.beanlifecycle.bean.Principal;
 import pers.masteryourself.tutorial.spring.framework.beanlifecycle.bean.Student;
+import pers.masteryourself.tutorial.spring.framework.beanlifecycle.bean.Teacher;
 
 /**
  * <p>description : SpringConfig
@@ -17,12 +19,27 @@ import pers.masteryourself.tutorial.spring.framework.beanlifecycle.bean.Student;
  */
 @Configuration
 @Import(ExtBeanPostProcessor.class)
-@ComponentScan("pers.masteryourself.tutorial.spring.framework.beanlifecycle")
 public class SpringConfig {
 
     @Bean(initMethod = "initMethod", destroyMethod = "destroyMethod")
     public Student student() {
         return new Student();
     }
+
+    @Bean
+    public Teacher teacher() {
+        return new Teacher();
+    }
+
+    @Bean
+    public Principal principal() {
+        return new Principal();
+    }
+
+    @Bean(initMethod = "initMethod", destroyMethod = "destroyMethod")
+    public Monitor monitor() {
+        return new Monitor();
+    }
+
 
 }

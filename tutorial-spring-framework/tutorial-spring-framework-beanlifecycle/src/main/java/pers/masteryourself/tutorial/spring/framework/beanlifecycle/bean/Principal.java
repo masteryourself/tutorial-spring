@@ -1,7 +1,5 @@
 package pers.masteryourself.tutorial.spring.framework.beanlifecycle.bean;
 
-import org.springframework.stereotype.Component;
-
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
@@ -14,7 +12,6 @@ import javax.annotation.PreDestroy;
  * @version : 1.0.0
  * @date : 2020/3/28 21:50
  */
-@Component
 public class Principal {
 
     public Principal() {
