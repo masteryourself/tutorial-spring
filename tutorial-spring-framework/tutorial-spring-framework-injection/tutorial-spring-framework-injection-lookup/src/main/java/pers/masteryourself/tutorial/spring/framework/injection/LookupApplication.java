@@ -17,12 +17,13 @@ import pers.masteryourself.tutorial.spring.framework.injection.config.SpringConf
  */
 public class LookupApplication {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(SpringConfig.class);
         Person person1 = applicationContext.getBean(Person.class);
         person1.doSomething();
         Person person2 = applicationContext.getBean(Person.class);
         person2.doSomething();
+        System.in.read();
     }
 
 }
