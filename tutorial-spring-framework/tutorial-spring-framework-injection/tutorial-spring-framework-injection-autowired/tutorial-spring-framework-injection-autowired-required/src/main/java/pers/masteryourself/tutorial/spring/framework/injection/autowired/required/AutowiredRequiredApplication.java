@@ -5,7 +5,7 @@ import pers.masteryourself.tutorial.spring.framework.injection.autowired.require
 import pers.masteryourself.tutorial.spring.framework.injection.autowired.required.service.AnimalService;
 
 /**
- * <p>description : AutowiredDynamicApplication
+ * <p>description : AutowiredRequiredApplication
  *
  * <p>blog : https://blog.csdn.net/masteryourself
  *
