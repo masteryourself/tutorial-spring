@@ -1,4 +1,4 @@
-package pers.masteryourself.tutorial.spring.framework.injection.autowired.multi.bean;
+package pers.masteryourself.tutorial.spring.framework.injection.autowired.collection.bean;
 
 import org.springframework.stereotype.Component;
 

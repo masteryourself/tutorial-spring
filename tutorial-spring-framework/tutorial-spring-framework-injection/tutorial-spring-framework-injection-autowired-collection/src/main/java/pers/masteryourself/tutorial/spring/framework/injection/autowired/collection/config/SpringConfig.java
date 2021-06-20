@@ -1,4 +1,4 @@
-package pers.masteryourself.tutorial.spring.framework.injection.autowired.multi.config;
+package pers.masteryourself.tutorial.spring.framework.injection.autowired.collection.config;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Configuration;
  * @date : 2021/6/20 0:19
  */
 @Configuration
-@ComponentScan("pers.masteryourself.tutorial.spring.framework.injection.autowired.multi")
+@ComponentScan("pers.masteryourself.tutorial.spring.framework.injection.autowired.collection")
 public class SpringConfig {
 
 }

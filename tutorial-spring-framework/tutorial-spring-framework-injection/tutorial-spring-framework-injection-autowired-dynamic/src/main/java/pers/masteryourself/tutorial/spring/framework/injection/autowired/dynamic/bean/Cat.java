@@ -1,5 +1,6 @@
-package pers.masteryourself.tutorial.spring.framework.injection.autowired.multi.bean;
+package pers.masteryourself.tutorial.spring.framework.injection.autowired.dynamic.bean;
 
+import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.stereotype.Component;
 
 /**
@@ -12,5 +13,6 @@ import org.springframework.stereotype.Component;
  * @date : 2021/6/20 0:21
  */
 @Component
+@ConditionalOnMissingBean(Animal.class)
 public class Cat implements Animal {
 }

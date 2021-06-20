@@ -2,10 +2,10 @@ package pers.masteryourself.tutorial.spring.framework.injection;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import pers.masteryourself.tutorial.spring.framework.injection.config.SpringConfig;
-import pers.masteryourself.tutorial.spring.framework.injection.controller.PersonController;
-import pers.masteryourself.tutorial.spring.framework.injection.controller.StudentController;
-import pers.masteryourself.tutorial.spring.framework.injection.controller.TeacherController;
-import pers.masteryourself.tutorial.spring.framework.injection.controller.UserController;
+import pers.masteryourself.tutorial.spring.framework.injection.controller.FiledController;
+import pers.masteryourself.tutorial.spring.framework.injection.controller.ParameterController;
+import pers.masteryourself.tutorial.spring.framework.injection.controller.ConstructController;
+import pers.masteryourself.tutorial.spring.framework.injection.controller.MethodController;
 
 /**
  * <p>description : AutowiredApplication
@@ -20,18 +20,18 @@ public class AutowiredApplication {
 
     public static void main(String[] args) {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(SpringConfig.class);
-        PersonController personController = context.getBean(PersonController.class);
+        FiledController filedController = context.getBean(FiledController.class);
         // PersonController(personService2=PersonService(label=2))
-        System.out.println(personController);
-        UserController userController = context.getBean(UserController.class);
+        System.out.println(filedController);
+        MethodController methodController = context.getBean(MethodController.class);
         // UserController(personService=PersonService(label=1))
-        System.out.println(userController);
-        TeacherController teacherController = context.getBean(TeacherController.class);
+        System.out.println(methodController);
+        ConstructController constructController = context.getBean(ConstructController.class);
         // TeacherController(personService=PersonService(label=2))
-        System.out.println(teacherController);
-        StudentController studentController = context.getBean(StudentController.class);
+        System.out.println(constructController);
+        ParameterController parameterController = context.getBean(ParameterController.class);
         // StudentController(personService=PersonService(label=1))
-        System.out.println(studentController);
+        System.out.println(parameterController);
     }
 
 }

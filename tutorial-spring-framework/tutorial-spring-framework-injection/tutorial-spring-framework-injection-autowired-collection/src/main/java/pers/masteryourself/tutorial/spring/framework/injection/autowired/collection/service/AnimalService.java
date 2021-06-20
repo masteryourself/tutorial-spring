@@ -1,11 +1,11 @@
-package pers.masteryourself.tutorial.spring.framework.injection.autowired.multi.service;
+package pers.masteryourself.tutorial.spring.framework.injection.autowired.collection.service;
 
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import pers.masteryourself.tutorial.spring.framework.injection.autowired.multi.bean.Animal;
-import pers.masteryourself.tutorial.spring.framework.injection.autowired.multi.bean.Cat;
-import pers.masteryourself.tutorial.spring.framework.injection.autowired.multi.bean.Dog;
+import pers.masteryourself.tutorial.spring.framework.injection.autowired.collection.bean.Animal;
+import pers.masteryourself.tutorial.spring.framework.injection.autowired.collection.bean.Cat;
+import pers.masteryourself.tutorial.spring.framework.injection.autowired.collection.bean.Dog;
 
 import javax.annotation.Resource;
 import java.util.List;

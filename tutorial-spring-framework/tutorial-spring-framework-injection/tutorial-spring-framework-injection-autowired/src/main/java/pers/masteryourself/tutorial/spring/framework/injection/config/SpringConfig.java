@@ -3,7 +3,7 @@ package pers.masteryourself.tutorial.spring.framework.injection.config;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import pers.masteryourself.tutorial.spring.framework.injection.controller.StudentController;
+import pers.masteryourself.tutorial.spring.framework.injection.controller.ParameterController;
 import pers.masteryourself.tutorial.spring.framework.injection.service.PersonService;
 
 /**
@@ -30,8 +30,8 @@ public class SpringConfig {
     }
 
     @Bean
-    public StudentController studentController(/*@Autowired*/ PersonService personService1){
-        return new StudentController(personService1);
+    public ParameterController studentController(/*@Autowired*/ PersonService personService1){
+        return new ParameterController(personService1);
     }
 
 }
