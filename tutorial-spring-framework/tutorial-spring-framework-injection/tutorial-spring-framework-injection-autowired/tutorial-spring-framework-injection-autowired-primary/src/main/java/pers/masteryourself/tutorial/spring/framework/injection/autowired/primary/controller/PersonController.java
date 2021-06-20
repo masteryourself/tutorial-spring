@@ -1,9 +1,9 @@
-package pers.masteryourself.tutorial.spring.framework.injection.controller;
+package pers.masteryourself.tutorial.spring.framework.injection.autowired.primary.controller;
 
 import lombok.ToString;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import pers.masteryourself.tutorial.spring.framework.injection.service.PersonService;
+import pers.masteryourself.tutorial.spring.framework.injection.autowired.primary.service.PersonService;
 
 /**
  * <p>description : PersonController
