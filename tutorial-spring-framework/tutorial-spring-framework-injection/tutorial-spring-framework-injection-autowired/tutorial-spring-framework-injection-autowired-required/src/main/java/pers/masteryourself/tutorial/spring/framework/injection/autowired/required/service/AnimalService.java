@@ -21,7 +21,7 @@ import javax.annotation.Resource;
 @Data
 public class AnimalService {
 
-    @Autowired/*(required = false)*/
+    @Autowired(required = false)
     private Cat cat;
 
     @Resource
