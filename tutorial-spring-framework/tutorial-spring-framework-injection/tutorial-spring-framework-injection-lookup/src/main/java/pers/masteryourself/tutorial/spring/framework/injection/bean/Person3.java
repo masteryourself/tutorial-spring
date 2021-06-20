@@ -8,8 +8,6 @@ import org.springframework.context.ApplicationContextAware;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
-import javax.annotation.Resource;
-
 /**
  * <p>description : Person3
  *
@@ -24,7 +22,6 @@ import javax.annotation.Resource;
 @ToString
 public class Person3 implements ApplicationContextAware {
 
-    @Resource
     private ApplicationContext applicationContext;
 
     public void adoptDog() {
