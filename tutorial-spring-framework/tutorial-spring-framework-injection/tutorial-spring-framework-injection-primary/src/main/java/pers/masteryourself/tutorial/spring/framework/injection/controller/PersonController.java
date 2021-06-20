@@ -19,6 +19,7 @@ import pers.masteryourself.tutorial.spring.framework.injection.service.PersonSer
 public class PersonController {
 
     @Autowired
+    // @Qualifier(value = "personService2")
     private PersonService personService2;
 
 }
