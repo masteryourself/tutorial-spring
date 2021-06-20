@@ -10,18 +10,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>tutorial-spring-framework-injection-autowired</artifactId>
+    <packaging>pom</packaging>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
-            <version>5.1.6.RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.10</version>
-        </dependency>
-    </dependencies>
+    <modules>
+        <module>tutorial-spring-framework-injection-autowired-core</module>
+        <module>tutorial-spring-framework-injection-autowired-collection</module>
+        <module>tutorial-spring-framework-injection-autowired-dynamic</module>
+        <module>tutorial-spring-framework-injection-autowired-primary</module>
+        <module>tutorial-spring-framework-injection-autowired-qualifier</module>
+    </modules>
 
 </project>

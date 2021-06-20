@@ -1,9 +1,9 @@
-package pers.masteryourself.tutorial.spring.framework.injection.controller;
+package pers.masteryourself.tutorial.spring.framework.injection.autowired.core.controller;
 
 import lombok.ToString;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import pers.masteryourself.tutorial.spring.framework.injection.service.PersonService;
+import pers.masteryourself.tutorial.spring.framework.injection.autowired.core.bean.SomeBean;
 
 /**
  * <p>description : FiledController
@@ -19,6 +19,6 @@ import pers.masteryourself.tutorial.spring.framework.injection.service.PersonSer
 public class FiledController {
 
     @Autowired
-    private PersonService personService2;
+    private SomeBean someBean2;
 
 }

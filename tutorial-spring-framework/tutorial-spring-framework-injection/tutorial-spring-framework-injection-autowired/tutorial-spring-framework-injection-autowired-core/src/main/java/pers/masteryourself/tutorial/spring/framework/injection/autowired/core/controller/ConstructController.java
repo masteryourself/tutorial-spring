@@ -1,8 +1,8 @@
-package pers.masteryourself.tutorial.spring.framework.injection.controller;
+package pers.masteryourself.tutorial.spring.framework.injection.autowired.core.controller;
 
 import lombok.ToString;
 import org.springframework.stereotype.Controller;
-import pers.masteryourself.tutorial.spring.framework.injection.service.PersonService;
+import pers.masteryourself.tutorial.spring.framework.injection.autowired.core.bean.SomeBean;
 
 /**
  * <p>description : ConstructController
@@ -17,10 +17,10 @@ import pers.masteryourself.tutorial.spring.framework.injection.service.PersonSer
 @ToString
 public class ConstructController {
 
-    private PersonService personService;
+    private SomeBean someBean;
 
     /*@Autowired*/
-    public ConstructController(/*@Autowired*/ PersonService personService2) {
-        this.personService = personService2;
+    public ConstructController(/*@Autowired*/ SomeBean someBean2) {
+        this.someBean = someBean2;
     }
 }

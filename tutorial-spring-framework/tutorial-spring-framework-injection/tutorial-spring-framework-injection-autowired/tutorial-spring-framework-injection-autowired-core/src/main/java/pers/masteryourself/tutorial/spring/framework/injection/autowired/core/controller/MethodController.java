@@ -1,9 +1,9 @@
-package pers.masteryourself.tutorial.spring.framework.injection.controller;
+package pers.masteryourself.tutorial.spring.framework.injection.autowired.core.controller;
 
 import lombok.ToString;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import pers.masteryourself.tutorial.spring.framework.injection.service.PersonService;
+import pers.masteryourself.tutorial.spring.framework.injection.autowired.core.bean.SomeBean;
 
 /**
  * <p>description : MethodController
@@ -18,10 +18,10 @@ import pers.masteryourself.tutorial.spring.framework.injection.service.PersonSer
 @ToString
 public class MethodController {
 
-    private PersonService personService;
+    private SomeBean someBean;
 
     @Autowired
-    public void setPersonService(PersonService personService1) {
-        this.personService = personService1;
+    public void setSomeBean(SomeBean someBean1) {
+        this.someBean = someBean1;
     }
 }
