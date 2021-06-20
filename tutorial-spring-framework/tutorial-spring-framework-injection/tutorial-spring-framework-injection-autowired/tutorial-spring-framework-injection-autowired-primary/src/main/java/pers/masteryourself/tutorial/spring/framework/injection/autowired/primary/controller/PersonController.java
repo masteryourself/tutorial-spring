@@ -19,7 +19,6 @@ import pers.masteryourself.tutorial.spring.framework.injection.autowired.primary
 public class PersonController {
 
     @Autowired
-    // @Qualifier(value = "personService2")
     private PersonService personService2;
 
 }
