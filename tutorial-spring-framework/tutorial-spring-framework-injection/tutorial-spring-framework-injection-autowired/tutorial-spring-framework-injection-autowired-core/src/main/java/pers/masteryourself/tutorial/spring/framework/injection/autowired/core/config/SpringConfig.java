@@ -30,7 +30,7 @@ public class SpringConfig {
     }
 
     @Bean
-    public ParameterController studentController(/*@Autowired*/ SomeBean someBean1){
+    public ParameterController parameterController(/*@Autowired*/ SomeBean someBean1){
         return new ParameterController(someBean1);
     }
 
