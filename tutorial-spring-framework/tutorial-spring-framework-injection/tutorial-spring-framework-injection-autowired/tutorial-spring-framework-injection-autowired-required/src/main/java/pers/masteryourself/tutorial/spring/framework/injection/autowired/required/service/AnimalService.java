@@ -1,10 +1,10 @@
-package pers.masteryourself.tutorial.spring.framework.injection.autowired.dynamic.service;
+package pers.masteryourself.tutorial.spring.framework.injection.autowired.required.service;
 
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import pers.masteryourself.tutorial.spring.framework.injection.autowired.dynamic.bean.Cat;
-import pers.masteryourself.tutorial.spring.framework.injection.autowired.dynamic.bean.Dog;
+import pers.masteryourself.tutorial.spring.framework.injection.autowired.required.bean.Cat;
+import pers.masteryourself.tutorial.spring.framework.injection.autowired.required.bean.Dog;
 
 import javax.annotation.Resource;
 

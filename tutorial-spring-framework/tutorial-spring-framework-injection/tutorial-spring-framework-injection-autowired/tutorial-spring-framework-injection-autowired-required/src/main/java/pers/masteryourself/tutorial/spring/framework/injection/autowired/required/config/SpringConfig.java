@@ -1,4 +1,4 @@
-package pers.masteryourself.tutorial.spring.framework.injection.autowired.dynamic.config;
+package pers.masteryourself.tutorial.spring.framework.injection.autowired.required.config;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Configuration;
  * @date : 2021/6/20 0:19
  */
 @Configuration
-@ComponentScan("pers.masteryourself.tutorial.spring.framework.injection.autowired.dynamic")
+@ComponentScan("pers.masteryourself.tutorial.spring.framework.injection.autowired.required")
 public class SpringConfig {
 
 }

@@ -1,8 +1,8 @@
-package pers.masteryourself.tutorial.spring.framework.injection.autowired.dynamic;
+package pers.masteryourself.tutorial.spring.framework.injection.autowired.required;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import pers.masteryourself.tutorial.spring.framework.injection.autowired.dynamic.config.SpringConfig;
-import pers.masteryourself.tutorial.spring.framework.injection.autowired.dynamic.service.AnimalService;
+import pers.masteryourself.tutorial.spring.framework.injection.autowired.required.config.SpringConfig;
+import pers.masteryourself.tutorial.spring.framework.injection.autowired.required.service.AnimalService;
 
 /**
  * <p>description : AutowiredDynamicApplication
@@ -13,7 +13,7 @@ import pers.masteryourself.tutorial.spring.framework.injection.autowired.dynamic
  * @version : 1.0.0
  * @date : 2021/6/20 11:06
  */
-public class AutowiredDynamicApplication {
+public class AutowiredRequiredApplication {
 
     public static void main(String[] args) {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(SpringConfig.class);

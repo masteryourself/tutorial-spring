@@ -1,4 +1,4 @@
-package pers.masteryourself.tutorial.spring.framework.injection.autowired.dynamic.bean;
+package pers.masteryourself.tutorial.spring.framework.injection.autowired.required.bean;
 
 /**
  * <p>description : Animal

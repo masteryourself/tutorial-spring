@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>tutorial-spring-framework-injection-autowired-dynamic</artifactId>
+    <artifactId>tutorial-spring-framework-injection-autowired-required</artifactId>
 
     <dependencies>
         <dependency>
