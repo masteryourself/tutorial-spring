@@ -12,5 +12,5 @@ import org.springframework.stereotype.Component;
  * @date : 2021/6/20 0:21
  */
 @Component
-public class Dog implements Animal{
+public class Dog implements Animal {
 }

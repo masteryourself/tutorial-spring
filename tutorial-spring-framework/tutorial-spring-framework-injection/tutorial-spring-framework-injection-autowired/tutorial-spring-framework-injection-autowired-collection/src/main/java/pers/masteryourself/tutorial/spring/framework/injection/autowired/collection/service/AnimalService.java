@@ -10,7 +10,6 @@ import pers.masteryourself.tutorial.spring.framework.injection.autowired.collect
 import javax.annotation.Resource;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 
 /**
  * <p>description : AnimalService
@@ -36,8 +35,5 @@ public class AnimalService {
 
     @Autowired
     private Map<String,Animal> animalMap;
-
-    @Resource
-    private Set<Animal> animalSet;
 
 }
