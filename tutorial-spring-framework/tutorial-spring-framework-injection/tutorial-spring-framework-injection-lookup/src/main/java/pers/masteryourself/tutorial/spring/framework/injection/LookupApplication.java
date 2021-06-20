@@ -3,7 +3,6 @@ package pers.masteryourself.tutorial.spring.framework.injection;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import pers.masteryourself.tutorial.spring.framework.injection.bean.Dog;
 import pers.masteryourself.tutorial.spring.framework.injection.bean.Person1;
-import pers.masteryourself.tutorial.spring.framework.injection.bean.Person3;
 import pers.masteryourself.tutorial.spring.framework.injection.config.SpringConfig;
 
 /**
@@ -20,7 +19,7 @@ public class LookupApplication {
 
     public static void main(String[] args) {
         AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(SpringConfig.class);
-        Person3 person = applicationContext.getBean(Person3.class);
+        Person1 person = applicationContext.getBean(Person1.class);
         person.adoptDog();
         person.adoptDog();
     }
