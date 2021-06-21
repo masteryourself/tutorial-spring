@@ -10,6 +10,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>tutorial-spring-framework-extension</artifactId>
+    <packaging>pom</packaging>
 
+    <modules>
+        <module>tutorial-spring-framework-extension-aware</module>
+        <module>tutorial-spring-framework-extension-beanpostprocessor</module>
+        <module>tutorial-spring-framework-extension-beanfactorypostprocessor</module>
+        <module>tutorial-spring-framework-extension-import</module>
+    </modules>
 
 </project>
