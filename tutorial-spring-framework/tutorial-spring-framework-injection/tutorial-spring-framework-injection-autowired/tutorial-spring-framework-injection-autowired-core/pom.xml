@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>tutorial-spring-framework-injection-autowird-core</artifactId>
+    <artifactId>tutorial-spring-framework-injection-autowired-core</artifactId>
 
     <dependencies>
         <dependency>
