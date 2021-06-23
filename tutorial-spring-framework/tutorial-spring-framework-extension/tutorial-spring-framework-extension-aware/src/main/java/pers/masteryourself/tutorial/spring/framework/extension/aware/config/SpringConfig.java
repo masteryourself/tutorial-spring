@@ -2,7 +2,7 @@ package pers.masteryourself.tutorial.spring.framework.extension.aware.config;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import pers.masteryourself.tutorial.spring.framework.extension.aware.importware.EnableMasteryourself;
+import pers.masteryourself.tutorial.spring.framework.extension.aware.importware.EnableMasterYourself;
 
 /**
  * <p>description : SpringConfig
@@ -15,6 +15,6 @@ import pers.masteryourself.tutorial.spring.framework.extension.aware.importware.
  */
 @Configuration
 @ComponentScan
-@EnableMasteryourself
+@EnableMasterYourself
 public class SpringConfig {
 }

@@ -17,6 +17,7 @@
         <module>tutorial-spring-framework-beanlifecycle</module>
         <module>tutorial-spring-framework-property</module>
         <module>tutorial-spring-framework-injection</module>
+        <module>tutorial-spring-framework-extension</module>
         <module>tutorial-spring-framework-aop</module>
         <module>tutorial-spring-framework-tx</module>
         <module>tutorial-spring-framework-listener</module>
@@ -25,7 +26,6 @@
         <module>tutorial-spring-framework-async</module>
         <module>tutorial-spring-framework-autowiring</module>
         <module>tutorial-spring-framework-log</module>
-        <module>tutorial-spring-framework-extension</module>
     </modules>
 
 </project>

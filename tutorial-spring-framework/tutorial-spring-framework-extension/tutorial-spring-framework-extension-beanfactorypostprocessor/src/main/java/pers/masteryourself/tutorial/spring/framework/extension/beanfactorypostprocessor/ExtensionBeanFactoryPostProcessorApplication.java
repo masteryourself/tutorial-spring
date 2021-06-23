@@ -13,7 +13,7 @@ import pers.masteryourself.tutorial.spring.framework.extension.beanfactorypostpr
  * @version : 1.0.0
  * @date : 2021/6/22 16:09
  */
-public class ExtensionBeanFactoryPostProcessor {
+public class ExtensionBeanFactoryPostProcessorApplication {
 
     public static void main(String[] args) {
         // MyBeanDefinitionRegistryPostProcessor 先执行了

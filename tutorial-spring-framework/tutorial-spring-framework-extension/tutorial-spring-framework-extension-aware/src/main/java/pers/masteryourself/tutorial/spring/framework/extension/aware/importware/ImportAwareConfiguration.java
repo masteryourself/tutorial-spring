@@ -21,7 +21,7 @@ public class ImportAwareConfiguration implements ImportAware {
     @Override
     public void setImportMetadata(AnnotationMetadata annotationMetadata) {
         System.out.println(String.format("{%s} ==========================>>>>>>>>>>>>>>>>>>>>>>>>>>>", "setImportMetadata"));
-        Map<String, Object> attributes = annotationMetadata.getAnnotationAttributes(EnableMasteryourself.class.getName());
+        Map<String, Object> attributes = annotationMetadata.getAnnotationAttributes(EnableMasterYourself.class.getName());
         System.out.println("获取注解信息：" + attributes);
     }
 

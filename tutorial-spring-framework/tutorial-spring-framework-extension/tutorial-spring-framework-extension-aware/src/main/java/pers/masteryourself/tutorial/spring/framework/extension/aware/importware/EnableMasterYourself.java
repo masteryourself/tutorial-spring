@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Import;
 import java.lang.annotation.*;
 
 /**
- * <p>description : Masteryourself
+ * <p>description : EnableMasterYourself
  *
  * <p>blog : https://blog.csdn.net/masteryourself
  *
@@ -17,7 +17,7 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 @Import(ImportAwareConfiguration.class)
-public @interface EnableMasteryourself {
+public @interface EnableMasterYourself {
 
     String name() default "五分钟聊架构";
 
