@@ -22,6 +22,7 @@
         <module>tutorial-spring-cloud-consumer-feign-hystrix-fallbackfactory-6007</module>
         <module>tutorial-spring-cloud-consumer-feign-hystrix-dashboard-6008</module>
         <module>tutorial-spring-cloud-consumer-zuul-6009</module>
+        <module>tutorial-spring-cloud-consumer-eureka-grpc-6010</module>
     </modules>
 
 </project>

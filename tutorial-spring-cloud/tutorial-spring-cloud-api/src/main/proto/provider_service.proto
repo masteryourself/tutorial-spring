@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "pers.masteryourself.tutorial.spring.cloud.api";
+option java_multiple_files = true;
+option java_outer_classname = "ProviderServiceProto";
+
+service ProviderService {
+    rpc info (ProviderServiceRequest) returns (ProviderServiceResponse) {
+    }
+}
+
+message ProviderServiceRequest {
+    string request = 1;
+}
+
+message ProviderServiceResponse {
+    string response = 1;
+}

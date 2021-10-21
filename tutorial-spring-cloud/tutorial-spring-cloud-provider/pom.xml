@@ -16,6 +16,7 @@
         <module>tutorial-spring-cloud-provider-simple-5001</module>
         <module>tutorial-spring-cloud-provider-eureka-5002</module>
         <module>tutorial-spring-cloud-provider-eureka-5003</module>
+        <module>tutorial-spring-cloud-provider-eureka-grpc-5004</module>
     </modules>
 
 </project>
