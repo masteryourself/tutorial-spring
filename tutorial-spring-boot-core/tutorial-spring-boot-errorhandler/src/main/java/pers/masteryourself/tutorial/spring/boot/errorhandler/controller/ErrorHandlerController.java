@@ -1,7 +1,8 @@
 package pers.masteryourself.tutorial.spring.boot.errorhandler.controller;
 
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
 
 /**
  * <p>description : ErrorHandlerController
@@ -12,13 +13,13 @@ import org.springframework.web.bind.annotation.RestController;
  * @version : 1.0.0
  * @date : 2020/3/15 18:35
  */
-@RestController
+@Controller
 public class ErrorHandlerController {
 
     @GetMapping(value = "test")
-    public String test() {
-        int i = 10 / 0;
-        return "error";
+    public String test(Model model) {
+        model.addAttribute("k1","v1");
+        return "/error/4xx.html";
     }
 
 }
