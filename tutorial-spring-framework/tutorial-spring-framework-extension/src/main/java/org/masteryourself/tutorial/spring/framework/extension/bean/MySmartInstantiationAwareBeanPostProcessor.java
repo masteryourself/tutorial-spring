@@ -48,4 +48,17 @@ public class MySmartInstantiationAwareBeanPostProcessor implements SmartInstanti
         return null;
     }
 
+    /**
+     * 这个是在发生循环依赖时, 依然可以使用后置处理器的回调方法
+     * 三级缓存这个方法会调用: addSingletonFactory(beanName, () -> getEarlyBeanReference(beanName, mbd, bean))
+     *
+     * @param bean
+     * @param beanName
+     * @return
+     * @throws BeansException
+     */
+    @Override
+    public Object getEarlyBeanReference(Object bean, String beanName) throws BeansException {
+        return bean;
+    }
 }
