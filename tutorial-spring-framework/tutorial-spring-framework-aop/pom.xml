@@ -3,24 +3,23 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>tutorial-spring</artifactId>
+        <artifactId>tutorial-spring-framework</artifactId>
         <groupId>org.masteryourself.tutorial</groupId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>tutorial-spring-framework</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>tutorial-spring-framework-aop</artifactId>
 
-    <modules>
-        <module>tutorial-spring-framework-extension</module>
-        <module>tutorial-spring-framework-aop</module>
-    </modules>
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
+            <artifactId>spring-aspects</artifactId>
             <version>5.1.6.RELEASE</version>
         </dependency>
     </dependencies>
