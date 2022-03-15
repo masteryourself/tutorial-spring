@@ -15,6 +15,7 @@
     <modules>
         <module>tutorial-spring-framework-extension</module>
         <module>tutorial-spring-framework-aop</module>
+        <module>tutorial-spring-framework-listener</module>
     </modules>
 
     <dependencies>
