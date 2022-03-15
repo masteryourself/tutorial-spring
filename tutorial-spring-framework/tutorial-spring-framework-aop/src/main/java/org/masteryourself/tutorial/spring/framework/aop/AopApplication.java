@@ -19,6 +19,5 @@ public class AopApplication {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(SpringConfig.class);
         PersonService service = context.getBean(PersonService.class);
         service.query("张三");
-        service.save("李四");
     }
 }

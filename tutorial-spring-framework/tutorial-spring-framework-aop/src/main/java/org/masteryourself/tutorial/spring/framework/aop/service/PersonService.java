@@ -18,9 +18,5 @@ public class PersonService {
         System.out.println("执行 query()");
     }
 
-    public void save(String name) {
-        System.out.println("执行 save()");
-    }
-
 }
 
