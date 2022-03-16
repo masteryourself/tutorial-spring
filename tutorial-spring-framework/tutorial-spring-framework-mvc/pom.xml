@@ -3,27 +3,30 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>tutorial-spring</artifactId>
+        <artifactId>tutorial-spring-framework</artifactId>
         <groupId>org.masteryourself.tutorial</groupId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
+    <packaging>war</packaging>
+    <artifactId>tutorial-spring-framework-mvc</artifactId>
 
-    <artifactId>tutorial-spring-framework</artifactId>
-    <packaging>pom</packaging>
-
-    <modules>
-        <module>tutorial-spring-framework-extension</module>
-        <module>tutorial-spring-framework-aop</module>
-        <module>tutorial-spring-framework-listener</module>
-        <module>tutorial-spring-framework-mvc</module>
-    </modules>
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
+            <artifactId>spring-webmvc</artifactId>
             <version>5.2.19.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>4.0.1</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
