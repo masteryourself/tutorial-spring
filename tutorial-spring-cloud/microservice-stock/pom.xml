@@ -16,6 +16,7 @@
         <module>microservice-stock-eureka-5002</module>
         <module>microservice-stock-eureka-5003</module>
         <module>microservice-stock-seata-at-5004</module>
+        <module>microservice-stock-mq-5005</module>
     </modules>
 
     <properties>

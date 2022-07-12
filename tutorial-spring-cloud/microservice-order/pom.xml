@@ -16,6 +16,7 @@
         <module>microservice-order-eureka-6002</module>
         <module>microservice-order-feign-6003</module>
         <module>microservice-order-seata-at-6004</module>
+        <module>microservice-order-mq-6005</module>
     </modules>
 
     <properties>
