@@ -1,4 +1,4 @@
-package org.masteryourself.tutorial.microservice.stock.seata.at.config;
+package org.masteryourself.tutorial.microservice.order.seata.at.config;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import io.seata.rm.datasource.DataSourceProxy;
@@ -22,14 +22,11 @@ import javax.sql.DataSource;
 public class DatasourceConfig {
 
     @Bean
-    @ConfigurationProperties(prefix = "spring.datasource.stock")
+    @ConfigurationProperties(prefix = "spring.datasource.order")
     public DruidDataSource druidDataSource() {
         return new DruidDataSource();
     }
 
-    /**
-     * 数据源使用 seata 代理
-     */
     @Bean
     @Primary
     public DataSource dataSource(DruidDataSource druidDataSource) {

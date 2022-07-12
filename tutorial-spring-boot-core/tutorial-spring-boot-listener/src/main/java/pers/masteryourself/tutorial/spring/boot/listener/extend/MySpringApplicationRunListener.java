@@ -1,5 +1,6 @@
 package pers.masteryourself.tutorial.spring.boot.listener.extend;
 
+import org.springframework.boot.ConfigurableBootstrapContext;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.SpringApplicationRunListener;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -26,12 +27,12 @@ public class MySpringApplicationRunListener implements SpringApplicationRunListe
     }
 
     @Override
-    public void starting() {
+    public void starting(ConfigurableBootstrapContext bootstrapContext) {
         System.out.println("SpringApplicationRunListener...starting...");
     }
 
     @Override
-    public void environmentPrepared(ConfigurableEnvironment environment) {
+    public void environmentPrepared(ConfigurableBootstrapContext bootstrapContext, ConfigurableEnvironment environment) {
         System.out.println("SpringApplicationRunListener...environmentPrepared...");
     }
 

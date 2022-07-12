@@ -1,6 +1,5 @@
 package pers.masteryourself.tutorial.spring.cloud.consumer.feign.loadbalance;
 
-import com.netflix.loadbalancer.IRule;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.openfeign.EnableFeignClients;

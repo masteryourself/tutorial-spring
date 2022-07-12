@@ -20,7 +20,7 @@
         <module>tutorial-spring-cloud-zuul</module>
         <module>tutorial-spring-cloud-api</module>
         <module>microservice-stock</module>
-        <module>microservice-trade</module>
+        <module>microservice-order</module>
         <module>microservice-discovery</module>
         <module>microservice-api</module>
     </modules>
